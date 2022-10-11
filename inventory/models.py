@@ -16,7 +16,7 @@ class Category(models.Model):
 
 
 class Product(models.Model):
-    name = models.CharField(max_length=50)
+    the_name = models.CharField(max_length=50)
     description = models.TextField()
     slug = models.SlugField()
     is_active = models.BooleanField(default=True)

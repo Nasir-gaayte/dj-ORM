@@ -46,5 +46,5 @@ class GategoryAdmin(admin.ModelAdmin):
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
         prepopulated_fields = {
-            "slug":("name",),
+            "slug":("the_name",),
         }        
